@@ -76,6 +76,3 @@ def validate_board(board: list) -> bool:
     False
     """
     return check_rule_1(board) and check_rule_2(board) and check_rule_3(board)
-
-
-doctest.testmod()
